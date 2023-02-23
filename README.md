@@ -35,10 +35,6 @@ I assume you have node.js installed already.
    npm run build;
    ```
 
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -58,6 +54,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Özü Özdeş KOÇ - [@twitter_handle](https://twitter.com/ozukoc) - ozdes24@gmail..com
+Özü Özdeş KOÇ - [@twitter](https://twitter.com/ozukoc) - ozdes24@gmail..com
 
 Project Link: [eleventy-tailwind-flowbite_starter](https://github.com/ozukoc/eleventy-tailwind-flowbite_starter)
