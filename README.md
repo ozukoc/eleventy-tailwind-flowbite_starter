@@ -9,6 +9,19 @@ This repo will be usefull for me in the future projects. Hope it can be usefull 
 * [TailwindCSS](https://tailwindcss.com/)
 * [Flowbite-Components](https://flowbite.com)
 
+## Some Notes on Project
+
+* Currently I included Flowbite via CDN but in the futura I will update it.
+* Using combined npm run commands sometimes cause problems like not updating css, so I am using split terminal in Vscode and running separete commands for tailwindcss and Eleventy.
+* No global css variables defined so it is very barebone, you can use Tailwind classes or even create your classes to modify.
+* There is darkmode implemented in main.js file, also in the head section of base.html there is a script for listening default theme. You can implement dark mode with css classes to any component, just use dark css class like this;
+
+   ```sh
+   dark:bg-<here comes the color>-600
+   dark:text-white
+   ```
+
+* I will update the repo as I create other projects starting with this starter template, so when I see the missing/improvable parts. If you see any mistake or do have a suggestion do not hesitate to contribute or just send an [e-mail](mailto:ozdes24@gmail.com) =)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -29,7 +42,7 @@ I assume you have node.js installed already.
    npm install
    ```
 
-3. See/Edit package.json file for scripts or build with pre-defined script
+3. See/edit package.json file for scripts or build with pre-defined script
 
    ```js
    npm run build;
@@ -50,10 +63,10 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the GNU General Public License v3. See `[LICENSE.txt](https://github.com/ozukoc/eleventy-tailwind-flowbite_starter/blob/main/LICENSE)` for more information.
 
 ## Contact
 
-Özü Özdeş KOÇ - [@twitter](https://twitter.com/ozukoc) - ozdes24@gmail..com
+Özü Özdeş KOÇ - [@twitter](https://twitter.com/ozukoc) - ozdes24 [@] gmail.com
 
 Project Link: [eleventy-tailwind-flowbite_starter](https://github.com/ozukoc/eleventy-tailwind-flowbite_starter)
