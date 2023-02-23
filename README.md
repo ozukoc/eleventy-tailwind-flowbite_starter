@@ -1,5 +1,10 @@
 # 11ty Starter Template using TailwindCss and Flowbite Components
 
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/ozukoc/eleventy-tailwind-flowbite_starter/blob/main/src/assets/images/ss.png"> 
+</p>
+
+
 I needed to create a static website that I can implement Flowbite components to easily and quickly manage it, I found some examples for 11ty+Tailwind and I wanted to add Flowbite to it.
 This repo will be usefull for me in the future projects. Hope it can be usefull for you aswell.
 
