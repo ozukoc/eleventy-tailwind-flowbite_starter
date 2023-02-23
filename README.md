@@ -31,7 +31,7 @@ This repo will be usefull for me in the future projects. Hope it can be usefull 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-I assume you have node.js installed already.
+I assume you have node.js installed already.Open up your VsCode Terminal and follow below.
 
 ### Installation
 
@@ -47,11 +47,22 @@ I assume you have node.js installed already.
    npm install
    ```
 
-3. See/edit package.json file for scripts or build with pre-defined script
+3. Build with pre-defined script
 
-   ```js
+   ```sh
    npm run build;
    ```
+
+   PS: In case you run into css problems in site, this command is combined script but I Prefer using split terminal and running tailwind and 11ty scripts separate like this:
+
+   ```sh
+   npm run tail
+   npm run 11ty   
+   ```
+
+   This solves my issues with not updated css.
+
+4. Leave a star =) Thank you!
 
 ## Contributing
 
@@ -68,7 +79,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the GNU General Public License v3. See `[LICENSE.txt](https://github.com/ozukoc/eleventy-tailwind-flowbite_starter/blob/main/LICENSE)` for more information.
+Distributed under the GNU General Public License v3. See [LICENSE.txt](https://github.com/ozukoc/eleventy-tailwind-flowbite_starter/blob/main/LICENSE) for more information.
 
 ## Contact
 
