@@ -10,13 +10,13 @@ This repo will be usefull for me in the future projects. Hope it can be usefull 
 
 ### Built With
 
-* [Eventy](https://www.11ty.dev/)
+* [Eleventy Static Site Generator](https://www.11ty.dev/)
 * [TailwindCSS](https://tailwindcss.com/)
 * [Flowbite-Components](https://flowbite.com)
 
 ## Some Notes on Project
 
-* Currently I included Flowbite via CDN but in the futura I will update it.
+* Currently I included Flowbite via CDN but in the future I will update it.
 * Using combined npm run commands sometimes cause problems like not updating css, so I am using split terminal in Vscode and running separete commands for tailwindcss and Eleventy.
 * No global css variables defined so it is very barebone, you can use Tailwind classes or even create your classes to modify.
 * There is darkmode implemented in main.js file, also in the head section of base.html there is a script for listening default theme. You can implement dark mode with css classes to any component, just use dark css class like this;
@@ -53,7 +53,7 @@ I assume you have node.js installed already.Open up your VsCode Terminal and fol
    npm run build;
    ```
 
-   PS: In case you run into css problems in site, this command is combined script but I Prefer using split terminal and running tailwind and 11ty scripts separate like this:
+   PS: In case you run into css problems in site, this command is combined script but I prefer using split terminal and running tailwind and 11ty scripts separate like this:
 
    ```sh
    npm run tail
@@ -62,7 +62,9 @@ I assume you have node.js installed already.Open up your VsCode Terminal and fol
 
    This solves my issues with not updated css.
 
-4. Leave a star =) Thank you!
+4. Edit the site however you want
+
+5. Leave a star =) Thank you!
 
 ## Contributing
 
@@ -85,4 +87,4 @@ Distributed under the GNU General Public License v3. See [LICENSE.txt](https://g
 
 Özü Özdeş KOÇ - [@twitter](https://twitter.com/ozukoc) - ozdes24 [@] gmail.com
 
-Project Link: [eleventy-tailwind-flowbite_starter](https://github.com/ozukoc/eleventy-tailwind-flowbite_starter)
+Project Link: [eleventy tailwind flowbite starter template](https://github.com/ozukoc/eleventy-tailwind-flowbite_starter)
